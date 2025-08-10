@@ -1,6 +1,12 @@
 # Implementing-a-Superclass-Bank-Account
 Implement a superclass BankAccount that has the following fields and methods.
 
+What this program does (big picture)
+This project models a tiny slice of banking logic using object-oriented programming. I created a generic BankAccount superclass and a specialized CheckingAccount subclass. The base class handles common behavior—tracking the customer’s name, account ID, and balance—while the subclass layers on checking-specific rules like overdrafts with a $30 fee and an interest rate field. A small main routine (in BankAssignmentVSCode) runs a demo: deposit money, make normal and overdraft withdrawals, and print summaries.
+
+
+
+
 <img width="1052" height="506" alt="Screenshot 2025-08-10 at 7 09 14 PM" src="https://github.com/user-attachments/assets/68831945-0998-4bd3-8a46-038e9dd5d12d" />
 
 SOURCE CODE 
